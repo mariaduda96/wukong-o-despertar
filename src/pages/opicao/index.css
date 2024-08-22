@@ -1,93 +1,30 @@
 
 * {
-  padding: 0px;
   margin: 0px;
   box-sizing: border-box;
 }
 
-.opicao-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; /* Altura total da viewport */
-}
-
-.madera-traz {
-  display: flex;
-  flex-direction: column; /* Organização vertical dos botões */
-  align-items: center; /* Centraliza os elementos horizontalmente */
-  gap: 20px; /* Espaçamento entre os elementos */
-}
-
-.bottao-madera {
-  display: flex;
-  margin-top: -400px;
-  flex-direction: column; /* Organização vertical dos botões */
-  align-items: center; /* Centraliza os elementos horizontalmente */
+.saves {
  
-}
-
-.Credito{
+  background-size: 250px;
+  padding: 110px 110px 120px 110px;
+  border: transparent;
   background-color: transparent;
-  border: none;
-  cursor: pointer;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin: 0px 0px -130px 130px;
+  font-family: 'Irish Grover';
+  font-size: 17px;
 }
 
-.Opicao{
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.botao1 {
+  margin: -65px 0px 0px 0px;
 }
 
-.imagem-botao-Crédito{
-  height: 232px;
-  width: 232px;
-  display: block;
+.divcentral {
+  margin-top: 246px;
+  margin-left: 880px;
 }
 
-.imagem-botao-opicao {
-  height: 232px;
-  width: 232px;
-  display: block;
-}
-
-.h1 {
-  position: absolute;
-  color: #412B1F;
-  text-align: center;
-  font-size: 23px;
-  margin: 96px;
-  pointer-events: none; 
-}
-
-.h2{
-  position: absolute;
-  color: #412B1F;
-  text-align: center;
-  font-size: 22px;
-  margin: 96px ;
-  pointer-events: none;
-}
-
-.imagem-botao-duvida{
-  height: 100px;
-  width: 100px;
-  display: block;
-}
-
-.imagem-botao-sair {
-  height: 100px;
-  width: 100px;
-  display: block;
-}
-
-.img-bottao-rodape{
-  display: flex;
-  flex-direction: row;
+.titulo {
+  margin: -440px 0px 0px 190px;
+  font-family: 'Irish Grover';
 }

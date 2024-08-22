@@ -1,40 +1,30 @@
 
 import './index.css';
-import React from 'react';
+
 
 function Opicao() {
   return (
-    <div className="opicao-container">
 
-      <div className='madeira-tras'>
+        <div class="divcentral">
+            <div>
 
-      <div className='madera-traz'>
-
-        <div className='bottao-madera'>
-
-          <button className='Credito'>
-            <img className="imagem-botao-Crédito" src='https://cdn.discordapp.com/attachments/1219092174063403089/1231653870527058061/1713719548041.png?ex=6692b58d&is=6691640d&hm=381136840c9d6e1872a8990047aa034e03929022129e80aabb1ff9d55071e5d0&' />
-            <h1 className='h1'>Créditos</h1>
-          </button>
-
-          <button className='Opicao'>
-            <img className="imagem-botao-opicao" src='https://cdn.discordapp.com/attachments/1219092174063403089/1231653870527058061/1713719548041.png?ex=6692b58d&is=6691640d&hm=381136840c9d6e1872a8990047aa034e03929022129e80aabb1ff9d55071e5d0&' />
-            <h2 className='h2'>opção</h2>
-          </button>
+                <img src="https://s3-alpha-sig.figma.com/img/0a3c/44b5/085851f51c7707c6b18a2610c86fa30b?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CSMBynLXGjRZIeGzaryZrszrRXiWDCWRXFhlWq4wkg5hBW7jBfMPtjxeW9WsuhPJg4bTGJ2BByUC59h0L6AgDXJz9tOUyvIwN4gOB0Ltc9ZEVPt8EI9nsSUA4s0mx~FYCIeApXwjy~UUDZWEyBr0yRA4iJcFBK9R0NP0bZtLmc8PX3BEKp7aehSmW~XmRl2viR-nhJHbRg84f9KQxrLP3oTwRMfiYzsVQRpTtLKFxBiG8kG0HHOGrVKmUoZ6OeR5FfADhJuFD7qH7gPiwwSUGK-9QDBMm~xOeg4e9snf9D1Tq6AE5iM5856M3ALyuh4H8X2xnaH-YpZ~ZpZ5b2S4DA__" />
+                <h1 class="titulo"> Novo Jogo </h1>
+                <div class="botao1">
+                    <button class="saves"> Save 1 </button>
+                </div>
+                <div class="botao2">
+                    <button class="saves"> Save 2 </button>
+                </div>
+                <div class="botao3">
+                    <button class="saves"> Save 3 </button>
+                </div>
+            
+            </div>
+        
         </div>
 
-        <div className='img-bottao-rodape'>
-
-        <img className="imagem-botao-duvida" src='https://cdn.discordapp.com/attachments/1219092174063403089/1231653241608077312/1713719294351.png?ex=6692b4f7&is=66916377&hm=8b7bff5bd501c501874de683deafd69c21987cc11327fa23b6f5820fe817a07d&' />
-        <img className="imagem-botao-sair" src='https://cdn.discordapp.com/attachments/1219092174063403089/1231708776588115968/1713732649275.png?ex=6692e8b0&is=66919730&hm=bf70d883f051890ffdcea2e5e4f479d4b59b98738d0b269c3c456f7450a6474e&' />
-
-        </div>
-    
-      </div>
-      </div>
-    </div>
   );
 }
 
 export default Opicao;
-

@@ -1,4 +1,4 @@
-*{
+/* *{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
@@ -22,13 +22,9 @@
   .IMG{
     height: 100%;
     width: 100%;
-   
   }
 
   .container-h1{
-  /* flex: auto 60px;
-  justify-content: flex-end; */
- 
     display: flex;
     justify-content: space-between;
   
@@ -105,11 +101,6 @@
     } 
 
 
-
-
-
-
-
     * {
   padding: 0px;
   margin: 0px;
@@ -120,22 +111,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Altura total da viewport */
+  height: 100vh; 
 }
 
 .madera-traz {
   display: flex;
-  flex-direction: column; /* Organização vertical dos botões */
-  align-items: center; /* Centraliza os elementos horizontalmente */
-  gap: 20px; /* Espaçamento entre os elementos */
+  flex-direction: column; 
+  align-items: center; 
+  gap: 20px; 
 }
 
 .bottao-madera {
   display: flex;
   margin-top: -400px;
-  flex-direction: column; /* Organização vertical dos botões */
-  align-items: center; /* Centraliza os elementos horizontalmente */
- 
+  flex-direction: column; 
+  align-items: center;  
 }
 
 .Credito{
@@ -201,4 +191,84 @@
 .img-bottao-rodape{
   display: flex;
   flex-direction: row;
+} */
+
+/* src/index.css */
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
+
+.container-home {
+  display: flex;
+  flex-direction: row;
+}
+
+body {
+  width: auto;
+  height: auto;
+  background-image: url('https://cdn.discordapp.com/attachments/1219092174063403089/1231653104303214652/arte_menu_Wukong_novo.png?ex=66916357&is=669011d7&hm=e3fa145a4407e9dc5db738b36ef3044ac0b9adeec87edc2fc9adb06d1a3df478&');
+}
+
+
+
+.container-h1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.titulo-home,
+.tituo-home2 {
+  font-size: 80px;
+  color: #412B1F;
+  position: fixed;
+  left: 100px;
+}
+
+.titulo-home {
+  top: 80px;
+}
+
+.tituo-home2 {
+  top: 170px;
+}
+
+.botao-home {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 95%;
+}
+
+.jogar-butom,
+.novo-jogo-butom,
+.opicoes {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.imagem-botao-jogar,
+.imagem-novo-jogar,
+.imagem-opicoes {
+  display: block;
+}
+
+.imagem-botao-jogar {
+  height: 232px;
+  width: 232px;
+}
+
+.imagem-novo-jogar {
+  height: 239px;
+  width: 239px;
+}
+
+.imagem-opicoes {
+  height: 100px;
+  width: 100px;
+}
+
+/* Outros estilos já definidos no CSS original */
