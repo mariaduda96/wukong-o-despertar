@@ -1,0 +1,93 @@
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.opicao-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Altura total da viewport */
+}
+
+.madera-traz {
+  display: flex;
+  flex-direction: column; /* Organização vertical dos botões */
+  align-items: center; /* Centraliza os elementos horizontalmente */
+  gap: 20px; /* Espaçamento entre os elementos */
+}
+
+.bottao-madera {
+  display: flex;
+  margin-top: -400px;
+  flex-direction: column; /* Organização vertical dos botões */
+  align-items: center; /* Centraliza os elementos horizontalmente */
+ 
+}
+
+.Credito{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Opicao{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imagem-botao-Crédito{
+  height: 232px;
+  width: 232px;
+  display: block;
+}
+
+.imagem-botao-opicao {
+  height: 232px;
+  width: 232px;
+  display: block;
+}
+
+.h1 {
+  position: absolute;
+  color: #412B1F;
+  text-align: center;
+  font-size: 23px;
+  margin: 96px;
+  pointer-events: none; 
+}
+
+.h2{
+  position: absolute;
+  color: #412B1F;
+  text-align: center;
+  font-size: 22px;
+  margin: 96px ;
+  pointer-events: none;
+}
+
+.imagem-botao-duvida{
+  height: 100px;
+  width: 100px;
+  display: block;
+}
+
+.imagem-botao-sair {
+  height: 100px;
+  width: 100px;
+  display: block;
+}
+
+.img-bottao-rodape{
+  display: flex;
+  flex-direction: row;
+}
