@@ -202,16 +202,15 @@
 }
 
 .container-home {
-  display: flex;
-  flex-direction: row;
+  
+    background-image: url('../../../public/assets/img/arte_menu_Wukong_novo.png');
+    background-repeat: no-repeat;
+    padding-bottom: 2px;
+    background-size: cover; /* Opcional: ajusta o tamanho da imagem para cobrir o contêiner */
+    background-position: center; /* Opcional: centraliza a imagem no contêiner */
+    height: 100vh;
+    width: 100%;
 }
-
-body {
-  width: auto;
-  height: auto;
-  background-image: url('https://cdn.discordapp.com/attachments/1219092174063403089/1231653104303214652/arte_menu_Wukong_novo.png?ex=66916357&is=669011d7&hm=e3fa145a4407e9dc5db738b36ef3044ac0b9adeec87edc2fc9adb06d1a3df478&');
-}
-
 
 
 .container-h1 {
@@ -270,5 +269,3 @@ body {
   height: 100px;
   width: 100px;
 }
-
-/* Outros estilos já definidos no CSS original */

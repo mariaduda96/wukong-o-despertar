@@ -75,7 +75,6 @@
 // }
 
 // export default Home;
-
 import React, { useState } from 'react';
 import './index.css';
 
@@ -102,27 +101,27 @@ function Home() {
         <div className='container-h1'>
           <h1 className='titulo-home'>WUKONG</h1>
           <h1 className='tituo-home2'>o despertar</h1>
-        </div>
+        </div><div className='botao-home'>
 
-        <div className='botao-home'>
-          <button className='jogar-butom' onClick={handleJogarClick}>
+        <button className='jogar-butom' onClick={handleJogarClick}>
             <img
               className="imagem-botao-jogar"
-              src={isJogarClicked ? 'https://cdn.discordapp.com/attachments/1219092174063403089/1231653243923337436/1713714228918.png?ex=66c770f8&is=66c61f78&hm=82c72e06e29354d9ecff691cd933371e0109634cf0c4384beeb009cbb3453eb1&' : 'https://cdn.discordapp.com/attachments/1219092174063403089/1231653242837008485/1713714177225.png?ex=66c770f8&is=66c61f78&hm=76733af307b038873776479d4a5bd3446959f22bd017edffd54f7cbf6d3b0346&'}
+              src={isJogarClicked ? '/assets/img/jogar-apertado.png' : '/assets/img/jogar-normal.png'}
               alt="Jogar"
             />
           </button>
 
+
           <button className='jogar-butom' onClick={handlNovoClick}>
             <img
               className="imagem-botao-jogar"
-              src={isNovoClicked ? 'https://cdn.discordapp.com/attachments/1219092174063403089/1232795209503473737/1713991645272.png?ex=66c6fb42&is=66c5a9c2&hm=01e2b3ab15ba40b9c0cc0461a7f6c84f78635f2333919f5ae29e271a65f5570a&' : 'https://cdn.discordapp.com/attachments/1219092174063403089/1232795209851732191/1713991542711.png?ex=66bdc0c2&is=66bc6f42&hm=af8ac0abba592f37f3312ab081b1111b5215f99e3ec01463609ce7e4397af48c&'}
+              src={isNovoClicked ? '/assets/img/jogar-apertado.png' : '/assets/img/novojogar-normal.png'}
               alt="Jogar"
             />
           </button>
 
           <button className='opicoes'>
-            <img className="imagem-opicoes" src="https://cdn.discordapp.com/attachments/1219092174063403089/1231707793795317831/1713732390087.png?ex=66749546&is=667343c6&hm=3d1c6fbf7a650b0214d8e4e978cb2c911f5ab80d48fa04e594c8ceba3c9d15ca&" alt="Opções" />
+            <img className="imagem-opicoes" src="/assets/img/botao-tres-orizontal.png" alt="Opções" />
           </button>
         </div>
       </div>
