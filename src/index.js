@@ -1,10 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 import './index.css';
-import Novojogo from './components/novojogo';
 import Home from './pages/home' 
 import Opcao from './pages/opicao';
+import Novojogo from './components/novojogo';
+import Opicaofora from './components/opicoesfora';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -16,8 +18,9 @@ root.render(
       <Routes>
 
       <Route path='/' element={<Home/>}/>
-      <Route path='/novojogo' element={<Novojogo/>} />
       <Route path="/opcao" element={<Opcao />} />
+      <Route path='/novojogo' element={<Novojogo />} />
+      <Route path='/opicoesfora' element={<Opicaofora />} />
 
       </Routes>
 
@@ -25,5 +28,3 @@ root.render(
 
   </React.StrictMode>
 );
-
-

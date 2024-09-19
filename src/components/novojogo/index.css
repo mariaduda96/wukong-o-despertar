@@ -1,0 +1,35 @@
+.central-novojogo{
+justify-content: center;
+}
+
+.opicao-novojogo{
+    font-size: 50px;
+    position: absolute;
+    margin-left: 94vh;
+    margin-top: 23vh;
+}
+
+.img-novo-jogo{
+    height: 709px;
+    width: 709px;
+    position: absolute;
+    margin-left: 70vh;
+    margin-top: 13vh;
+}
+
+.madeira-novojogo{
+    background-image: url('../../../public/assets/img/Plaquinha-fundo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 223px;
+    width: 333px;
+    background-color: transparent;
+    border: none;
+    background-position: center;
+    margin-left: 87vh;
+    margin-top: 37vh;
+    position: absolute;
+    font-weight: 400;
+    font-size: 30px;
+}
+

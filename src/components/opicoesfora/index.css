@@ -1,0 +1,78 @@
+ .central-opicaofora {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+  }
+  
+  .novojogo-opicaofora {
+    font-size: 50px;
+    position: absolute;
+   margin: 90px 90px 549px;
+  }
+  
+
+.img-opicaofora{
+    height: 809px;
+    width: 809px;
+    position: absolute;
+}
+
+.butom-opicoafora{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+
+.seve1-opicaofora{
+    background-image: url('../../../public/assets/img/Plaquinha-fundo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 235px;
+    width: 299px;
+    background-color: transparent;
+    border: none;
+    background-position: center;
+    margin: 0px 0px 168px;
+    position: absolute;
+
+    font-weight: 400px;
+    font-size: 30px;
+}
+
+.seve2-opicaofora{
+    background-image: url('../../../public/assets/img/Plaquinha-fundo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 235px;
+    width: 299px;
+    background-color: transparent;
+    border: none;
+    background-position: center;
+  
+    margin-top: 11vh;
+    position: absolute;
+    
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.seve3-opicaofora{
+    background-image: url('../../../public/assets/img/Plaquinha-fundo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 235px;
+    width: 299px;
+    background-color: transparent;
+    border: none;
+    background-position: center;
+   
+    margin-top: 37vh;
+    position: absolute;
+  
+    font-weight: 400;
+    font-size: 30px;
+}

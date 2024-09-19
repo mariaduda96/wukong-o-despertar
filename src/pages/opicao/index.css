@@ -1,14 +1,15 @@
-
-
 .divcentral-opicaofora {
   background-image: url('../../../public/assets/img/arte_menu_Wukong_novo.png');
   background-repeat: no-repeat;
-  padding-bottom: 2px;
-  background-size: cover; /* Opcional: ajusta o tamanho da imagem para cobrir o contêiner */
-  background-position: center; /* Opcional: centraliza a imagem no contêiner */
+  background-size: cover; /* Ajusta o tamanho da imagem para cobrir o contêiner */
+  background-position: center; /* Centraliza a imagem no contêiner */
+  background-color: #00000081; /* Cor clara por cima */
+  background-blend-mode: overlay; /* Mistura a cor com a imagem de fundo */
   height: 100vh;
   width: 100%;
+  padding-bottom: 2px;
 }
+
 
 .NovoJogo {
   /* background-image: url('../../assets/img/BotaoNovoJgo.webp'); */
@@ -24,25 +25,13 @@
   background-position: center;
 }
 
-.BotaoJogar {
-  /* background-image: url('../../assets/img/BotaoJogar.webp'); */
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 80px;
-  width: 170px;
-  background-color: transparent;
-  border: none;
-  margin-left: 1400px;
-  margin-top: 45px;
-  background-position: center;
-}
 
 .img-opicao {
-  height: 560px;
-  width: 560px;
+  height: 809px;
+  width: 809px;
   position: absolute;
   margin-left: 70vh;
-  margin-top: 20vh;
+  margin-top: 16vh;
 }
 .creditos-opicaofora {
   background-image: url('../../../public/assets/img/Plaquinha-fundo.png');
@@ -53,12 +42,13 @@
   background-color: transparent;
   border: none;
   background-position: center;
-  margin-left: 80vh;
-  margin-top: 29vh;
+  margin-left: 90vh;
+  margin-top: 53vh;
   position: absolute;
   /* font-family: 'Irish Grover'; */
   font-weight: 400;
   font-size: 30px;
+  cursor: pointer;
 }
 
 .opcao-opicaofora {
@@ -70,12 +60,13 @@
   background-color: transparent;
   border: none;
   background-position: center;
-  margin-left: 80vh;
-  margin-top: 40vh;
+  margin-left: 90vh;
+  margin-top: 35vh;
   position: absolute;
   /* font-family: 'Irish Grover'; */
   font-weight: 400;
   font-size: 30px;
+  cursor: pointer;
 }
 
 .voltamenu1-opicaofora{
@@ -87,8 +78,9 @@
   position: absolute;
   height: 100px;
   width: 100px;
-  margin-left: 104vh;
-  margin-top: 298px;
+  margin-left: 82vh;
+  margin-top: 269px;
+  cursor: pointer;
   
 }
 .cancelar1-opicaofora {
@@ -101,8 +93,9 @@
   position: absolute;
   height: 100px;
   width: 100px;
-  margin-left: 100vh;
-  margin-top: 54vh;
+  margin-left: 123vh;
+  margin-top: 69vh;
+  cursor: pointer;
 }
 
 .duvidas1-opicaofora {
@@ -115,7 +108,8 @@
   height: 100px;
   width: 100px;
   margin-left: 82vh;
-  margin-top: 54vh;
+  margin-top: 69vh;
+  cursor: pointer;
 }
 
 .titulo {
