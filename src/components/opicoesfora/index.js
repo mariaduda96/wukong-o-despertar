@@ -1,25 +1,25 @@
+import { Link } from 'react-router-dom';
 import'./index.css';
 
 function opicoesfora() {
     return(
 
-        <div className='central-opicaofora'>
-            <div className='central-opicaofora'>
+        <div className='tudo-opicoes'>
+        <div className='central-novojogo'>
 
-                <img className='img-opicaofora' src='assets/img/fundo-madera.png'/>
+            <img className='img-novo-jogo' src='assets/img/fundo-madera.png'/>
 
-                    <h1 className='novojogo-opicaofora'>Novo jogo</h1>
+            <h1 className='opicao-novojogo'>Opções</h1>
+            
+            <div className='audio'>
+            <button className='madeira-novojogo'> Àudio </button>
+             </div>
 
-             
-                  <button className='seve1-opicaofora'>seve 1</button>
-                  <button className='seve2-opicaofora'>seve 2</button>
-                  <button className='seve3-opicaofora'> seve 3</button>
-             
-
-            </div>
-
+             <Link to="/opcao" className='sair-opicao'>
+             <button className='sair-opicoesfora'></button>
+             </Link>
         </div>
-
+        </div>
     );
 }
 

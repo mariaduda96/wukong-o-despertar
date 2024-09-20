@@ -10,7 +10,6 @@
   padding-bottom: 2px;
 }
 
-
 .NovoJogo {
   /* background-image: url('../../assets/img/BotaoNovoJgo.webp'); */
   background-repeat: no-repeat;
@@ -24,7 +23,6 @@
   margin-top: 145px;
   background-position: center;
 }
-
 
 .img-opicao {
   height: 809px;
@@ -79,9 +77,7 @@
   height: 100px;
   width: 100px;
   margin-left: 82vh;
-  margin-top: 269px;
-  cursor: pointer;
-  
+  margin-top: 269px;  
 }
 .cancelar1-opicaofora {
   background-image: url('../../../public/assets/img/bottaoX.png');

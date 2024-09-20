@@ -1,35 +1,103 @@
-.central-novojogo{
-justify-content: center;
+ .central-opicao{
+  background-image: url('../../../public/assets/img/arte_menu_Wukong_novo.png');
+  background-position: center; 
+  background-color: #00000081; 
+  background-blend-mode: overlay; 
+  height: 100vh;
+  width: 100%;
+  }
+  
+  .tudo-opica {
+    position: relative;
+    background-image: url('../../../public/assets/img/arte_menu_Wukong_novo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #00000081;
+    background-blend-mode: overlay;
+    height: 100vh;
+    width: 100%;
+    padding-bottom: 2px;
 }
 
-.opicao-novojogo{
+.novojogo-opicao {
     font-size: 50px;
     position: absolute;
-    margin-left: 94vh;
-    margin-top: 23vh;
+    top: 26vh; 
+    left: 95vh;       
+    color: #412B1F;    
+}
+  
+
+.img-opicao{
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
 }
 
-.img-novo-jogo{
-    height: 709px;
-    width: 709px;
-    position: absolute;
-    margin-left: 70vh;
-    margin-top: 13vh;
-}
-
-.madeira-novojogo{
+.seve1-opicao{
     background-image: url('../../../public/assets/img/Plaquinha-fundo.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 223px;
-    width: 333px;
+    height: 235px;
+    width: 299px;
     background-color: transparent;
     border: none;
     background-position: center;
-    margin-left: 87vh;
-    margin-top: 37vh;
+    margin-left: 92vh;
+    margin-top: 32vh;
+    position: absolute;
+
+    font-weight: 400px;
+    font-size: 30px;
+}
+
+.seve2-opicao{
+    background-image: url('../../../public/assets/img/Plaquinha-fundo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 235px;
+    width: 299px;
+    background-color: transparent;
+    border: none;
+    background-position: center;
+    margin-left: 92vh;
+    margin-top: 44vh;
     position: absolute;
     font-weight: 400;
     font-size: 30px;
 }
 
+.seve3-opicao{
+    background-image: url('../../../public/assets/img/Plaquinha-fundo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 235px;
+    width: 299px;
+    background-color: transparent;
+    border: none;
+    background-position: center;
+    margin-left: 92vh;
+    margin-top: 56vh;
+    position: absolute;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.sair-novojogo {
+    background-image: url('../../../public/assets/img/bottaoX.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    
+    /* Ajustes para mover o botão */
+    top: 70vh;    /* Mover para baixo, valor positivo */
+    left: 123vh;   /* Mover para a direita, valor positivo */
+    /* Você pode também usar right ou bottom para controle preciso */
+}

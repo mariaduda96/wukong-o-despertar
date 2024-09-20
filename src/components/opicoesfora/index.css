@@ -1,78 +1,54 @@
- .central-opicaofora {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-    align-items: center; 
-    height: 100vh; 
-  }
-  
-  .novojogo-opicaofora {
+.central-novojogo{
+    background-image: url('../../../public/assets/img/arte_menu_Wukong_novo.png');
+    background-position: center; 
+    background-color: #00000081; 
+    background-blend-mode: overlay; 
+    height: 100vh;
+    width: 100%;
+}
+
+.opicao-novojogo{
     font-size: 50px;
     position: absolute;
-   margin: 90px 90px 549px;
-  }
-  
+    margin-left: 94vh;
+    margin-top: 23vh;
+}
 
-.img-opicaofora{
-    height: 809px;
-    width: 809px;
+.img-novo-jogo{
+    height: 709px;
+    width: 709px;
     position: absolute;
+    margin-left: 70vh;
+    margin-top: 13vh;
 }
 
-.butom-opicoafora{
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-    align-items: center; 
-    height: 100vh; 
-}
-
-.seve1-opicaofora{
+.madeira-novojogo{
     background-image: url('../../../public/assets/img/Plaquinha-fundo.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 235px;
-    width: 299px;
+    height: 223px;
+    width: 333px;
     background-color: transparent;
     border: none;
     background-position: center;
-    margin: 0px 0px 168px;
-    position: absolute;
-
-    font-weight: 400px;
-    font-size: 30px;
-}
-
-.seve2-opicaofora{
-    background-image: url('../../../public/assets/img/Plaquinha-fundo.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 235px;
-    width: 299px;
-    background-color: transparent;
-    border: none;
-    background-position: center;
-  
-    margin-top: 11vh;
-    position: absolute;
-    
-    font-weight: 400;
-    font-size: 30px;
-}
-
-.seve3-opicaofora{
-    background-image: url('../../../public/assets/img/Plaquinha-fundo.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 235px;
-    width: 299px;
-    background-color: transparent;
-    border: none;
-    background-position: center;
-   
+    margin-left: 87vh;
     margin-top: 37vh;
     position: absolute;
-  
     font-weight: 400;
     font-size: 30px;
+}
+
+.sair-opicoesfora{
+    background-image: url('../../../public/assets/img/bottaoX.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    top: 60vh; 
+    left: 115vh;   
 }
