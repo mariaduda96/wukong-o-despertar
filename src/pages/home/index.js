@@ -17,7 +17,7 @@ function Home() {
     setTimeout(() => {
       setIsNovoClicked(false); 
       navigate('/novojogo'); // Redireciona para a página após a animação
-    }, 100); // Espera a animação ocorrer antes de redirecionar
+    }, 200); // Espera a animação ocorrer antes de redirecionar
   };
 
   return (

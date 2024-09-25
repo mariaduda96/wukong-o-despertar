@@ -6,6 +6,7 @@ import Home from './pages/home'
 import Opcao from './pages/opicao';
 import Novojogo from './components/novojogo';
 import Opicaofora from './components/opicoesfora';
+import Tutorial1 from './pages/tutorial1'
 
 
 
@@ -21,6 +22,7 @@ root.render(
       <Route path="/opcao" element={<Opcao />} />
       <Route path='/novojogo' element={<Novojogo />} />
       <Route path='/opicoesfora' element={<Opicaofora />} />
+      <Route path='/tutorial1' element={<Tutorial1 />} />
 
       </Routes>
 
