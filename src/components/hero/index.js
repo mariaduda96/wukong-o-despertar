@@ -1,7 +1,7 @@
 // components/hero.js
 
 import React from 'react';
-
+import './index.css';
 
 const Personagem = () => {
   return (

@@ -1,41 +1,59 @@
-.central-novojogo{
-    background-image: url('../../../public/assets/img/arte_menu_Wukong_novo.png');
-    background-position: center; 
-    background-color: #00000081; 
-    background-blend-mode: overlay; 
+.central-novojogo {
+    background-repeat: no-repeat;
+    padding-bottom: 2px;
+    background-size: cover;
+    background-position: center;
     height: 100vh;
     width: 100%;
+}
+
+.central-novojogo {
+    position: relative;
+    background-image: url('../../../public/assets/img/arte_menu_Wukong_novo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #00000081;
+    background-blend-mode: overlay;
+    height: 100vh;
+    width: 100%;
+    padding-bottom: 2px;
 }
 
 .opicao-novojogo{
     font-size: 50px;
     position: absolute;
-    margin-left: 94vh;
-    margin-top: 23vh;
+    top: 23vh; 
+    left: 96vh;       
+    color: #412B1F; 
+    font-family: 'IrishGrover';
 }
 
 .img-novo-jogo{
-    height: 709px;
-    width: 709px;
+    height: 80vh;
+    width: 80vh;
     position: absolute;
-    margin-left: 70vh;
-    margin-top: 13vh;
+    margin-left: 65vh;
+    margin-top: 12vh;
 }
 
 .madeira-novojogo{
     background-image: url('../../../public/assets/img/Plaquinha-fundo.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 223px;
-    width: 333px;
+    height: 17vh;
+    width: 39vh;
     background-color: transparent;
     border: none;
-    background-position: center;
+    background-position: -1vh -10vh;
     margin-left: 87vh;
-    margin-top: 37vh;
+    margin-top: 34vh;
     position: absolute;
-    font-weight: 400;
+
+    font-weight: 700;
     font-size: 30px;
+    font-family: 'Irish Grover';
+    color: #412B1F;
 }
 
 .sair-opicoesfora{
@@ -49,6 +67,6 @@
     height: 100px;
     width: 100px;
     cursor: pointer;
-    top: 60vh; 
-    left: 115vh;   
+    top: 20vh; 
+    left: 122vh;   
 }

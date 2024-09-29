@@ -1,0 +1,19 @@
+/* Personagem.css */
+.png-wukong {
+    width: 194px; /* Ajuste o tamanho conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Garante que a imagem seja exibida corretamente */
+    position: absolute; /* Permite posicionar o personagem em relação ao pai */
+    bottom: 18vh; /* Alinha o personagem na parte inferior */
+    left: 50%; /* Move o personagem para o centro */
+    transform: translateX(-900%); /* Centraliza o personagem */
+}
+
+.img-caverna-tutorial{
+     width: 100px; /* Ajuste o tamanho conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Garante que a imagem seja exibida corretamente */
+    position: absolute; /* Permite posicionar o personagem em relação ao pai */
+    bottom: 18vh; /* Alinha o personagem na parte inferior */
+    left: 50%; /* Move o personagem para o centro */
+}

@@ -1,3 +1,4 @@
+
 import { Link } from 'react-router-dom';
 import'./index.css';
 
@@ -12,9 +13,9 @@ function novojogo() {
                     <h1 className='novojogo-opicao'>Novo jogo</h1>
 
              
-                  <button className='seve1-opicao'>seve 1</button>
-                  <button className='seve2-opicao'>seve 2</button>
-                  <button className='seve3-opicao'> seve 3</button>
+                  <button className='save1-opicao'>save 1</button>
+                  <button className='save2-opicao'>save 2</button>
+                  <button className='save3-opicao'> save 3</button>
 
                   <Link to="/" className='sair-novojog'>
                   <button className='sair-novojogo'></button>

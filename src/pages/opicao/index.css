@@ -1,17 +1,17 @@
-.divcentral-opicaofora {
+/* .divcentral-opicaofora {
   background-image: url('../../../public/assets/img/arte_menu_Wukong_novo.png');
   background-repeat: no-repeat;
-  background-size: cover; /* Ajusta o tamanho da imagem para cobrir o contêiner */
-  background-position: center; /* Centraliza a imagem no contêiner */
-  background-color: #00000081; /* Cor clara por cima */
-  background-blend-mode: overlay; /* Mistura a cor com a imagem de fundo */
+  background-size: cover;
+  background-position: center;
+  background-color: #00000081;
+  background-blend-mode: overlay; 
   height: 100vh;
   width: 100%;
   padding-bottom: 2px;
 }
 
 .NovoJogo {
-  /* background-image: url('../../assets/img/BotaoNovoJgo.webp'); */
+  
   background-repeat: no-repeat;
   background-size: cover;
   height: 80px;
@@ -43,7 +43,7 @@
   margin-left: 90vh;
   margin-top: 53vh;
   position: absolute;
-  /* font-family: 'Irish Grover'; */
+  font-family: 'Irish Grover';
   font-weight: 400;
   font-size: 30px;
   cursor: pointer;
@@ -61,7 +61,7 @@
   margin-left: 90vh;
   margin-top: 35vh;
   position: absolute;
-  /* font-family: 'Irish Grover'; */
+  font-family: 'Irish Grover';
   font-weight: 400;
   font-size: 30px;
   cursor: pointer;
@@ -105,6 +105,133 @@
   width: 100px;
   margin-left: 82vh;
   margin-top: 69vh;
+  cursor: pointer;
+}
+
+.titulo {
+  font-family: 'Irish Grover';
+  color: #543321;
+  font-weight: 400;
+  font-size: 80px;
+  position: absolute;
+  margin-left: 90px;
+  margin-top: 50px;
+} */
+
+
+
+.divcentral-opicaofora {
+  background-image: url('../../../public/assets/img/arte_menu_Wukong_novo.png');
+  background-repeat: no-repeat;
+  background-size: cover; /* Ajusta o tamanho da imagem para cobrir o contêiner */
+  background-position: center; /* Centraliza a imagem no contêiner */
+  background-color: #00000081; /* Cor clara por cima */
+  background-blend-mode: overlay; /* Mistura a cor com a imagem de fundo */
+  height: 100vh;
+  width: 100%;
+  padding-bottom: 2px;
+}
+
+.NovoJogo {
+  /* background-image: url('../../assets/img/BotaoNovoJgo.webp'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80px;
+  width: 170px;
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  margin-left: 1400px;
+  margin-top: 145px;
+  background-position: center;
+}
+
+.img-opicao {
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  height: 80vh;
+  width: 80vh;
+  margin-left: 65vh;
+ 
+}
+.creditos-opicaofora {
+  background-image: url('../../../public/assets/img/Plaquinha-fundo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 17vh;
+  width: 39vh;
+  background-color: transparent;
+  border: none;
+  background-position: -1vh -10vh;
+  margin-left: 87vh;
+  margin-top: -38vh;
+  position: absolute;
+
+  font-weight: 700;
+  font-size: 30px;
+  font-family: 'Irish Grover';
+  color: #412B1F;
+}
+
+.opcao-opicaofora {
+  background-image: url('../../../public/assets/img/Plaquinha-fundo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 17vh;
+  width: 39vh;
+  background-color: transparent;
+  border: none;
+  background-position: -1vh -10vh;
+  margin-left: 87vh;
+  margin-top: -60vh;
+  position: absolute;
+
+  font-weight: 700;
+  font-size: 30px;
+  font-family: 'Irish Grover';
+  color: #412B1F;
+}
+.voltamenu1-opicaofora{
+  background-image: url('../../../public/assets/img/botao-tres-orizontal.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  height: 90px;
+  width: 90px;
+  cursor: pointer;
+  top: 9vh;
+  left: 76vh;
+}
+.cancelar1-opicaofora {
+  background-image: url('../../../public/assets/img/bottaoX.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  margin-left: 123vh;
+  margin-top: -22vh;
+  cursor: pointer;
+}
+
+.duvidas1-opicaofora {
+  background-image: url('../../../public/assets/img/Duvidas.png');
+  background-size: cover;
+  background-position: center;
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  margin-left: 76vh;
+  margin-top: -22vh;
   cursor: pointer;
 }
 

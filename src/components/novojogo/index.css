@@ -1,11 +1,13 @@
- .central-opicao{
-  background-image: url('../../../public/assets/img/arte_menu_Wukong_novo.png');
-  background-position: center; 
-  background-color: #00000081; 
-  background-blend-mode: overlay; 
-  height: 100vh;
-  width: 100%;
-  padding-bottom: 2px;
+
+.central-opicao{
+    background-image: url(http://localhost:3000/static/media/arte_menu_Wukong_novo.d21c347….png);
+    background-repeat: no-repeat;
+    padding-bottom: 2px;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+   
+    width: 100%;
   }
   
   .tudo-opica {
@@ -18,14 +20,14 @@
     background-blend-mode: overlay;
     height: 100vh;
     width: 100%;
-    padding-bottom: 2px;
+
 }
 
 .novojogo-opicao {
     font-size: 50px;
     position: absolute;
-    top: 26vh; 
-    left: 95vh;       
+    top: 13vh; 
+    left: 96vh;       
     color: #412B1F;    
 }
   
@@ -33,55 +35,66 @@
     display: flex;
     align-items: center; 
     justify-content: center; 
+    height: 80vh;
+    width: 80vh;
+  
+    margin-left: 65vh;
 }
-
-.seve1-opicao{
+.save1-opicao{
     background-image: url('../../../public/assets/img/Plaquinha-fundo.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 235px;
-    width: 299px;
+    height: 17vh;
+    width: 39vh;
     background-color: transparent;
     border: none;
-    background-position: center;
-    margin-left: 92vh;
-    margin-top: 32vh;
+    background-position: -1vh -10vh;
+    margin-left: 87vh;
+    margin-top: -59vh;
     position: absolute;
 
-    font-weight: 400px;
+    font-weight: 700;
     font-size: 30px;
+    font-family: 'Irish Grover';
+    color: #412B1F;
 }
 
-.seve2-opicao{
+.save2-opicao{
     background-image: url('../../../public/assets/img/Plaquinha-fundo.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 235px;
-    width: 299px;
+    height: 17vh;
+    width: 39vh;
     background-color: transparent;
     border: none;
-    background-position: center;
-    margin-left: 92vh;
-    margin-top: 44vh;
+    background-position: -1vh -10vh;
+    margin-left: 87vh;
+    margin-top: -43vh;
     position: absolute;
-    font-weight: 400;
+
+    font-weight: 700;
     font-size: 30px;
+    font-family: 'Irish Grover';
+    color: #412B1F;
 }
 
-.seve3-opicao{
+.save3-opicao{
     background-image: url('../../../public/assets/img/Plaquinha-fundo.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 235px;
-    width: 299px;
+    height: 17vh;
+    width: 39vh;
     background-color: transparent;
     border: none;
-    background-position: center;
-    margin-left: 92vh;
-    margin-top: 56vh;
+    background-position: -1vh -10vh;
+    margin-left: 87vh;
+    margin-top: -26vh;
     position: absolute;
-    font-weight: 400;
+
+    font-weight: 700;
     font-size: 30px;
+    font-family: 'Irish Grover';
+    color: #412B1F;
 }
 
 .sair-novojogo {
@@ -95,6 +108,6 @@
     height: 100px;
     width: 100px;
     cursor: pointer;
-    top: 70vh;
+    top: 11vh;
     left: 123vh;
 }
