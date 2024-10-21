@@ -24,7 +24,7 @@ root.render(
       <Route path='/opicoesfora' element={<Opicaofora />} />
       <Route path='/tutorial1' element={<Tutorial1 />} />
 
-      </Routes>
+      </Routes>                                                            
 
     </BrowserRouter>
 

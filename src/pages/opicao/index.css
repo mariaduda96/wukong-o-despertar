@@ -119,6 +119,14 @@
 } */
 
 
+.img-opicao {
+  height: 80vh;
+  width: 80vh;
+  position: absolute;
+  margin-left: 65vh;
+  margin-top: 12vh;
+ 
+}
 
 .divcentral-opicaofora {
   background-image: url('../../../public/assets/img/arte_menu_Wukong_novo.png');
@@ -146,27 +154,20 @@
   background-position: center;
 }
 
-.img-opicao {
-  display: flex;
-  align-items: center; 
-  justify-content: center; 
-  height: 80vh;
-  width: 80vh;
-  margin-left: 65vh;
- 
-}
+
 .creditos-opicaofora {
   background-image: url('../../../public/assets/img/Plaquinha-fundo.png');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 17vh;
-  width: 39vh;
+  background-position: center;
   background-color: transparent;
   border: none;
-  background-position: -1vh -10vh;
-  margin-left: 87vh;
-  margin-top: -38vh;
   position: absolute;
+  height: 17vh;
+  width: 39vh;
+  cursor: pointer;
+  top: 30vh;
+  left: 86vh;
 
   font-weight: 700;
   font-size: 30px;
@@ -178,14 +179,15 @@
   background-image: url('../../../public/assets/img/Plaquinha-fundo.png');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 17vh;
-  width: 39vh;
+  background-position: center;
   background-color: transparent;
   border: none;
-  background-position: -1vh -10vh;
-  margin-left: 87vh;
-  margin-top: -60vh;
   position: absolute;
+  height: 17vh;
+  width: 39vh;
+  cursor: pointer;
+  top: 50vh;
+  left: 86vh;
 
   font-weight: 700;
   font-size: 30px;
@@ -203,7 +205,7 @@
   height: 90px;
   width: 90px;
   cursor: pointer;
-  top: 9vh;
+  top: 20vh;
   left: 76vh;
 }
 .cancelar1-opicaofora {
@@ -214,25 +216,26 @@
   background-color: transparent;
   border: none;
   position: absolute;
-  height: 100px;
-  width: 100px;
-  margin-left: 123vh;
-  margin-top: -22vh;
+  height: 90px;
+  width: 90px;
   cursor: pointer;
+  top: 70vh;
+  left: 122vh;
 }
 
 .duvidas1-opicaofora {
   background-image: url('../../../public/assets/img/Duvidas.png');
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-color: transparent;
   border: none;
   position: absolute;
-  height: 100px;
-  width: 100px;
-  margin-left: 76vh;
-  margin-top: -22vh;
+  height: 90px;
+  width: 90px;
   cursor: pointer;
+  top: 70vh;
+  left: 76vh;
 }
 
 .titulo {
