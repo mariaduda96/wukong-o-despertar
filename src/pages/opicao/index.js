@@ -13,11 +13,11 @@ function Opicao() {
       <button className='opcao-opicaofora'>Opção</button>
       </Link>
 
+      <Link to="/" className='duvidas1-opicaofor'>
         <button className='voltamenu1-opicaofora'></button>
+        </Link>
        
-        <Link to="/" className='duvidas1-opicaofor'>
       <button className='cancelar1-opicaofora'></button>
-      </Link>
       
       <button className='duvidas1-opicaofora'></button>
       

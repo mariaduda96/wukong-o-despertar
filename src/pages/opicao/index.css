@@ -1,124 +1,3 @@
-/* .divcentral-opicaofora {
-  background-image: url('../../../public/assets/img/arte_menu_Wukong_novo.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-color: #00000081;
-  background-blend-mode: overlay; 
-  height: 100vh;
-  width: 100%;
-  padding-bottom: 2px;
-}
-
-.NovoJogo {
-  
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 80px;
-  width: 170px;
-  background-color: transparent;
-  border: none;
-  position: absolute;
-  margin-left: 1400px;
-  margin-top: 145px;
-  background-position: center;
-}
-
-.img-opicao {
-  height: 809px;
-  width: 809px;
-  position: absolute;
-  margin-left: 70vh;
-  margin-top: 16vh;
-}
-.creditos-opicaofora {
-  background-image: url('../../../public/assets/img/Plaquinha-fundo.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 223px;
-  width: 333px;
-  background-color: transparent;
-  border: none;
-  background-position: center;
-  margin-left: 90vh;
-  margin-top: 53vh;
-  position: absolute;
-  font-family: 'Irish Grover';
-  font-weight: 400;
-  font-size: 30px;
-  cursor: pointer;
-}
-
-.opcao-opicaofora {
-  background-image: url('../../../public/assets/img/Plaquinha-fundo.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 223px;
-  width: 333px;
-  background-color: transparent;
-  border: none;
-  background-position: center;
-  margin-left: 90vh;
-  margin-top: 35vh;
-  position: absolute;
-  font-family: 'Irish Grover';
-  font-weight: 400;
-  font-size: 30px;
-  cursor: pointer;
-}
-
-.voltamenu1-opicaofora{
-  background-image: url('../../../public/assets/img/botao-tres-orizontal.png');
-  background-size: cover;
-  background-position: center;
-  background-color: transparent;
-  border: none;
-  position: absolute;
-  height: 100px;
-  width: 100px;
-  margin-left: 82vh;
-  margin-top: 269px;  
-}
-.cancelar1-opicaofora {
-  background-image: url('../../../public/assets/img/bottaoX.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-color: transparent;
-  border: none;
-  position: absolute;
-  height: 100px;
-  width: 100px;
-  margin-left: 123vh;
-  margin-top: 69vh;
-  cursor: pointer;
-}
-
-.duvidas1-opicaofora {
-  background-image: url('../../../public/assets/img/Duvidas.png');
-  background-size: cover;
-  background-position: center;
-  background-color: transparent;
-  border: none;
-  position: absolute;
-  height: 100px;
-  width: 100px;
-  margin-left: 82vh;
-  margin-top: 69vh;
-  cursor: pointer;
-}
-
-.titulo {
-  font-family: 'Irish Grover';
-  color: #543321;
-  font-weight: 400;
-  font-size: 80px;
-  position: absolute;
-  margin-left: 90px;
-  margin-top: 50px;
-} */
-
-
 .img-opicao {
   height: 80vh;
   width: 80vh;
@@ -193,8 +72,7 @@
   font-size: 30px;
   font-family: 'Irish Grover';
   color: #412B1F;
-}
-.voltamenu1-opicaofora{
+}.voltamenu1-opicaofora {
   background-image: url('../../../public/assets/img/botao-tres-orizontal.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -207,6 +85,16 @@
   cursor: pointer;
   top: 20vh;
   left: 76vh;
+  animation: rotate 0.5s linear; /* 5 segundos para uma rotação completa */
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 .cancelar1-opicaofora {
   background-image: url('../../../public/assets/img/bottaoX.png');

@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom'; // Corrigir a importação
+import { Link, useNavigate } from 'react-router-dom'; 
 import './index.css';
+import jogarAudio from '../../../public/assets/audio/som de botao.mp3'; 
 
 function Home() {
-  const navigate = useNavigate(); // Usar useNavigate para navegação
+  const navigate = useNavigate(); 
   const [isJogarClicked, setIsJogarClicked] = useState(false);
   const [isNovoClicked, setIsNovoClicked] = useState(false);
 
@@ -16,8 +17,8 @@ function Home() {
     setIsNovoClicked(true);
     setTimeout(() => {
       setIsNovoClicked(false); 
-      navigate('/novojogo'); // Redireciona para a página após a animação
-    }, 200); // Espera a animação ocorrer antes de redirecionar
+      navigate('/novojogo'); 
+    }, 200); 
   };
 
   return (
@@ -40,7 +41,7 @@ function Home() {
         <button className='jogar-butom' onClick={handleNovoClick}>
           <img
             className="imagem-botao-jogar"
-            src={isNovoClicked ? '/assets/img/jogar-apertado.png' : '/assets/img/novojogar-normal.png'}
+            src={isNovoClicked ? '/assets/img/novojogo-apertado.png' : '/assets/img/novojogar-normal.png'}
             alt="Novo Jogo"
           />
         </button>
