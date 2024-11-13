@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom'; 
 import './index.css';
-import jogarAudio from '../../../public/assets/audio/som de botao.mp3'; 
+// import jogarAudio from '../../../public/assets/audio/som de botao.mp3'; 
 
 function Home() {
   const navigate = useNavigate(); 

@@ -3,10 +3,10 @@
 import React from 'react';
 import './index.css';
 
-const Personagem = () => {
+const Personagem = ({ imagem }) => {
   return (
     <div>
-      <img className='png-wukong' src='assets/img/Wukong_parado_animacao.gif' alt="wukong" />
+      <img className="png-wukong" src={imagem} alt="wukong" />
     </div>
   );
 };
