@@ -1,24 +1,53 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import { Link, useNavigate } from 'react-router-dom'; 
 import './index.css';
-// import jogarAudio from '../../../public/assets/audio/som de botao.mp3'; 
 
 function Home() {
   const navigate = useNavigate(); 
   const [isJogarClicked, setIsJogarClicked] = useState(false);
   const [isNovoClicked, setIsNovoClicked] = useState(false);
 
-  const handleJogarClick = () => {
-    setIsJogarClicked(true);
-    setTimeout(() => setIsJogarClicked(false), 200); 
+  const audioRef = useRef(new Audio('/assets/audio/som de botao.mp3'));
+  const opcoesAudioRef = useRef(new Audio('/assets/audio/abrindo o options v2.mp3'));
+
+  // Função para tocar o áudio e iniciar a animação ao mesmo tempo
+  const playAudioAndStartAnimation = () => {
+    audioRef.current.currentTime = 0;  // Garantir que o áudio comece do início
+    audioRef.current.play();  // Tocar áudio imediatamente
+
+    setIsJogarClicked(true);  // Iniciar animação do botão
+
+    // Espera o áudio terminar e depois navega
+    audioRef.current.onended = () => {
+      setIsJogarClicked(false); 
+      navigate('/tutorial1');  
+    };
+  };
+
+  const playNovoAudioAndNavigate = () => {
+    audioRef.current.currentTime = 0;  
+    audioRef.current.play();  
+
+    setIsNovoClicked(true);  
+
+    // Espera o áudio terminar e depois navega
+    audioRef.current.onended = () => {
+      setIsNovoClicked(false); 
+      navigate('/novojogo');  
+    };
+  };
+
+  const handleOpcoesClick = () => {
+    opcoesAudioRef.current.currentTime = 0;  // Garantir que o áudio comece do início
+    opcoesAudioRef.current.play();  // Tocar áudio imediatamente
   };
 
   const handleNovoClick = () => {
-    setIsNovoClicked(true);
-    setTimeout(() => {
-      setIsNovoClicked(false); 
-      navigate('/novojogo'); 
-    }, 200); 
+    playNovoAudioAndNavigate();  // Tocar áudio e iniciar animaçoao do botao "Novo Jogo"
+  };
+
+  const handleJogarClick = () => {
+    playAudioAndStartAnimation();  // Tocar áudio e iniciar animaçao do botao "Jogar"
   };
 
   return (
@@ -29,7 +58,6 @@ function Home() {
       </div>
 
       <div className='botao-home'>
-        
         <button className='jogar-butom' onClick={handleJogarClick}>
           <img
             className="imagem-botao-jogar"
@@ -38,7 +66,7 @@ function Home() {
           />
         </button>
 
-        <button className='jogar-butom' onClick={handleNovoClick}>
+        <button className='novo-jogo-butom' onClick={handleNovoClick}>
           <img
             className="imagem-botao-jogar"
             src={isNovoClicked ? '/assets/img/novojogo-apertado.png' : '/assets/img/novojogar-normal.png'}
@@ -46,9 +74,10 @@ function Home() {
           />
         </button>
 
-        <Link to="/opcao" className='opicoes'>
+        <Link to="/opcao" className='opicoes' onClick={handleOpcoesClick}>
           <img className="imagem-opicoes" src="/assets/img/botao-tres-orizontal.png" alt="Opções" />
         </Link>
+
       </div>
     </div>
   );

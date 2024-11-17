@@ -1,23 +1,7 @@
-.img-tutorial1{
-height: 3040;
-width: 1080;
-}
-
-.img-caverna-tutorial{
- width: 80vh; /* Ajuste o tamanho conforme necessário */
-  height: auto; /* Mantém a proporção da imagem */
-  display: block; /* Garante que a imagem seja exibida corretamente */
-  position: absolute; /* Permite posicionar a imagem em relação ao pai */
-  bottom: 10vh; /* Alinha a imagem da caverna a 10% da parte inferior */
-  left: 20%; /* Alinha a caverna a 20% da esquerda (ajuste conforme necessário) */
-}
-
-.img-caverna-tutorial {
-    width: 80vh; 
-    height: auto; 
-    display: block; 
-    position: absolute; 
-    bottom: 1vh; 
-    left: 2%; 
-    z-index: 90; 
-}
+.img-tutorial1 {
+    height: auto; /* Deixa a altura proporcional */
+    width: auto; /* Deixa a largura proporcional */
+    display: block;
+    overflow: hidden; /* Remove o scroll da tela */
+  }
+  

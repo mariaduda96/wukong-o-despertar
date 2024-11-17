@@ -1,5 +1,3 @@
-// components/Tutorial1.js
-
 import React, { useState, useEffect } from 'react';
 import './index.css';
 import Personagem from '../../components/hero';
@@ -20,7 +18,7 @@ const Tutorial1 = () => {
 
   const moveCharacter = () => {
     if (isMovingLeft) {
-      setPosition((prev) => Math.max(prev - 10, 0)); // Limita à borda esquerda
+      setPosition((prev) => Math.max(prev - 10, 600)); // Limita à borda esquerda
     }
     if (isMovingRight) {
       setPosition((prev) => Math.min(prev + 10, backgroundWidth - characterWidth)); // Limita à borda direita
@@ -34,24 +32,24 @@ const Tutorial1 = () => {
   }, [isMovingLeft, isMovingRight]);
 
   // Detecta teclas para movimento
-  const handleKeyDown = (event) => {
-    if (event.key === 'a') setIsMovingLeft(true);
-    if (event.key === 'd') setIsMovingRight(true);
-  };
+ const handleKeyDown = (event) => {
+  if (event.key === 'a' || event.key === 'ArrowLeft') setIsMovingLeft(true);
+  if (event.key === 'd' || event.key === 'ArrowRight') setIsMovingRight(true);
+};
 
-  const handleKeyUp = (event) => {
-    if (event.key === 'a') setIsMovingLeft(false);
-    if (event.key === 'd') setIsMovingRight(false);
-  };
+const handleKeyUp = (event) => {
+  if (event.key === 'a' || event.key === 'ArrowLeft') setIsMovingLeft(false);
+  if (event.key === 'd' || event.key === 'ArrowRight') setIsMovingRight(false);
+};
 
-  useEffect(() => {
-    window.addEventListener('keydown', handleKeyDown);
-    window.addEventListener('keyup', handleKeyUp);
-    return () => {
-      window.removeEventListener('keydown', handleKeyDown);
-      window.removeEventListener('keyup', handleKeyUp);
-    };
-  }, []);
+useEffect(() => {
+  window.addEventListener('keydown', handleKeyDown);
+  window.addEventListener('keyup', handleKeyUp);
+  return () => {
+    window.removeEventListener('keydown', handleKeyDown);
+    window.removeEventListener('keyup', handleKeyUp);
+  };
+}, []);
 
   return (
     <div className="tudotutorial" style={{ overflow: 'hidden' }}>
