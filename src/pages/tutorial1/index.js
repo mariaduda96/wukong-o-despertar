@@ -55,7 +55,7 @@ useEffect(() => {
     <div className="tudotutorial" style={{ overflow: 'hidden' }}>
       <img
         className="img-tutorial1"
-        src="assets/img/Cenario_Certo_Sanidade_recuperada.jpg"
+     A   src="assets/img/fundo_1_final_completo.jpg"
         alt="Fundo-tutorial1"
         style={{ transform: `translateX(-${position}px)`, transition: 'transform 0.1s' }}
       />

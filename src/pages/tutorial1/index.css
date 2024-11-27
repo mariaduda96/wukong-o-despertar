@@ -1,7 +1,14 @@
-.img-tutorial1 {
-    height: auto; /* Deixa a altura proporcional */
-    width: auto; /* Deixa a largura proporcional */
-    display: block;
-    overflow: hidden; /* Remove o scroll da tela */
+.tudotutorial {
+    width: 100vw; /* Largura da tela */
+    height: 100vh; /* Altura da tela */
+    overflow: hidden; /* Esconde o que passar dos limites */
+    position: relative;
   }
   
+  .img-tutorial1 {
+    width: 3840px; /* Largura real do fundo */
+    height: 1080px; /* Altura real do fundo */
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
