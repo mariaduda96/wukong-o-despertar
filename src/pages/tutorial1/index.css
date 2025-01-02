@@ -1,13 +1,13 @@
 .tudotutorial {
-    width: 100vw; /* Largura da tela */
-    height: 100vh; /* Altura da tela */
-    overflow: hidden; /* Esconde o que passar dos limites */
+    width: 100vw; 
+    height: 100vh; 
+    overflow: hidden; 
     position: relative;
   }
   
   .img-tutorial1 {
-    width: 3840px; /* Largura real do fundo */
-    height: 1080px; /* Altura real do fundo */
+    width: 3840px; 
+    height: 1129px; 
     position: absolute;
     top: 0;
     left: 0;

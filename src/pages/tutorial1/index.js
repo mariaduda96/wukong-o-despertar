@@ -3,13 +3,13 @@ import './index.css';
 import Personagem from '../../components/hero';
 
 const Tutorial1 = () => {
-  const [position, setPosition] = useState(1500); // Posição do personagem
+  const [position, setPosition] = useState(1500); 
   const [isMovingLeft, setIsMovingLeft] = useState(false);
   const [isMovingRight, setIsMovingRight] = useState(false);
   const backgroundWidth = 2790;
   const characterWidth = 50; 
 
-  // Define a imagem correta com base no movimento
+  
   const getImagem = () => {
     if (isMovingRight) return 'assets/img/Wukong andando direita.gif';
     if (isMovingLeft) return 'assets/img/Wukong_andando_esuqerda.gif';
@@ -18,20 +18,20 @@ const Tutorial1 = () => {
 
   const moveCharacter = () => {
     if (isMovingLeft) {
-      setPosition((prev) => Math.max(prev - 10, 600)); // Limita à borda esquerda
+      setPosition((prev) => Math.max(prev - 10, 600)); 
     }
     if (isMovingRight) {
-      setPosition((prev) => Math.min(prev + 10, backgroundWidth - characterWidth)); // Limita à borda direita
+      setPosition((prev) => Math.min(prev + 10, backgroundWidth - characterWidth)); 
     }
   };
 
-  // Chama moveCharacter regularmente para atualizar a posição
+ 
   useEffect(() => {
     const interval = setInterval(moveCharacter, 100);
     return () => clearInterval(interval);
   }, [isMovingLeft, isMovingRight]);
 
-  // Detecta teclas para movimento
+ 
  const handleKeyDown = (event) => {
   if (event.key === 'a' || event.key === 'ArrowLeft') setIsMovingLeft(true);
   if (event.key === 'd' || event.key === 'ArrowRight') setIsMovingRight(true);

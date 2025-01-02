@@ -1,11 +1,11 @@
 
 .png-wukong {
-    width: 170px; /* Ajuste o tamanho conforme necessário */
-    height: auto; /* Mantém a proporção da imagem */
-    display: block; /* Garante que a imagem seja exibida corretamente */
-    position: absolute; /* Permite posicionar o personagem em relação ao pai */
-    bottom: 15vh; /* Alinha o personagem na parte inferior */
-    left: 23%; /* Move o personagem para o centro */
-    transform: translateX(-900%); /* Centraliza o personagem */
+    width: 170px; 
+    height: auto; 
+    display: block; 
+    position: absolute; 
+    left: 13%;
+    transform: translateX(-900%); 
+    bottom: -960px; 
 }
 

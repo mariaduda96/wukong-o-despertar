@@ -7,7 +7,7 @@ function Home() {
   const [isJogarClicked, setIsJogarClicked] = useState(false);
   const [isNovoClicked, setIsNovoClicked] = useState(false);
 
-  const audioRef = useRef(new Audio('/assets/audio/som de botao.mp3'));
+  const audioRef = useRef(new Audio('/assets/audio/som de botao 1.mp3'));
   const opcoesAudioRef = useRef(new Audio('/assets/audio/abrindo o options v2.mp3'));
 
   // Função para tocar o áudio e iniciar a animação ao mesmo tempo
